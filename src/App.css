@@ -1,0 +1,90 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  padding: 15px 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+
+.navbar-brand .brand-name {
+  color: #facc15;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand .brand-name:hover {
+  color: #fbbf24;
+}
+
+
+.navbar-categories {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-categories a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-categories a:hover {
+  background-color: #facc15;
+  color: #1f2937;
+}
+
+.cart-icon {
+  font-size: 1.5rem;
+  color: rgb(233, 100, 18);
+  position: relative;
+  top: 3px;
+  right: 3px;
+}
+
+.cart-widget {
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: #e5e7eb;
+}
+
+.cart-count {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: #facc15;
+  color: #1f2937;
+  border-radius: 50%;
+  padding: 4px 8px;
+  font-size: 0.6rem;
+  font-weight: bold;
+}
