@@ -20,7 +20,7 @@ Validación para evitar agregar al carrito menos de 1 producto.
 
 # 3. Ver Detalles del Producto
 
-Cada producto tiene una página dedicada con detalles completos, como descripción, y una imagen.
+Cada producto tiene una página dedicada con detalles completos, como descripción, precio y una imagen.
 
 Diseño atractivo y organizado.
 
