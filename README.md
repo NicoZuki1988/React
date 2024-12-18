@@ -2,7 +2,7 @@
 
 # Technocenter tienda de tecnologia en linea
 
-Una aplicación de carrito de compras desarrollada en React que permite a los usuarios navegar entre productos, ver detalles, agregar al carrito, eliminar productos y vaciar el carrito. Además, utiliza herramientas y librerías modernas como React-Bootstrap, React-Icons, SweetAlert2, y Firebase.
+Una aplicación de carrito de compras desarrollada en React que permite a los usuarios navegar entre productos, ver detalles, agregar al carrito, generar una orden de compra, eliminar productos y vaciar el carrito. Además, utiliza herramientas y librerías modernas como React-Bootstrap, React-Icons, SweetAlert2, y Firebase.
 
 Características
 
