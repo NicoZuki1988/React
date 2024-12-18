@@ -13,7 +13,7 @@ body {
 
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around !important;
   align-items: center;
   background-color: #1f2937;
   padding: 15px 30px;
@@ -37,6 +37,9 @@ body {
   color: #fbbf24;
 }
 
+.active{
+  color:#e60000 !important;
+}
 
 .navbar-categories {
   display: flex;
@@ -87,4 +90,15 @@ body {
   padding: 4px 8px;
   font-size: 0.6rem;
   font-weight: bold;
+}
+
+.clear-cart-icon {
+  font-size: 1.5rem;
+  color: #ff4d4d;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.clear-cart-icon:hover {
+  color: #e60000;
 }

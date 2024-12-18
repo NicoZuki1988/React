@@ -1,0 +1,75 @@
+
+.item-count {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 250px;
+  margin: 80px auto;
+}
+
+.counter-controls {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.count-btn {
+  width: 40px;
+  height: 40px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #3498db;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.count-btn.decrement {
+  background-color: #e74c3c;
+}
+
+.count-btn.increment {
+  background-color: #2ecc71;
+}
+
+.count-btn:hover {
+  transform: scale(1.1);
+}
+
+.count-input {
+  width: 60px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  margin: 0 10px;
+  pointer-events: none;
+  outline: none;
+}
+
+.add-to-cart-btn {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #3498db;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #2980b9;
+}

@@ -1,0 +1,28 @@
+.form-cart {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-cart h3 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .form-cart .form-control {
+    border-radius: 5px;
+  }
+  
+  .form-cart .btn {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-cart .btn:hover {
+    background-color: #0056b3;
+  }
