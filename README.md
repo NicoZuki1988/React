@@ -46,7 +46,7 @@ Validación de campos integrada gracias a React-Bootstrap.
 
 Integración con Firebase para registrar la orden de compra.
 
-Tecnologías Utilizadas
+# Tecnologías Utilizadas
 
 # 1. React-Bootstrap
 
@@ -82,19 +82,15 @@ npm run dev
 
 # Vista Previa
 
-Inicio
-
+Inicio:
 Vista inicial con productos y categorías.
 
-Carrito
+Carrito:
+Visualización de productos agregados, total de compra y opción para eliminar producto.
 
-Visualización de productos agregados, total de compra y opción para vaciar carrito.
-
-Detalle del Producto
-
+Detalle del Producto:
 Información detallada del producto con opción para agregar al carrito.
 
-Checkout
-
+Checkout:
 Formulario con validación para completar la compra.
 
